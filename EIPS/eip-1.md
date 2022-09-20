@@ -191,7 +191,7 @@ Links to external resources **SHOULD NOT** be included. External resources may d
 
 ## Linking to other EIPs
 
-References to other EIPs should follow the format `EIP-N` where `N` is the EIP number you are referring to.  Each EIP that is referenced in an EIP **MUST** be accompanied by a relative markdown link the first time it is referenced, and **MAY** be accompanied by a link on subsequent references.  The link **MUST** always be done via relative paths so that the links work in this GitHub repository, forks of this repository, the main EIPs site, mirrors of the main EIP site, etc.  For example, you would link to this EIP with `[EIP-1](./eip-1.md)`.
+References to other EIPs should follow the format `EIP-N` where `N` is the EIP number you are referring to.  Each EIP that is referenced in an EIP **MUST** be accompanied by a relative markdown link the first time it is referenced, and **MAY** be accompanied by a link on subsequent references.  The link **MUST** always be done via relative paths so that the links work in this GitHub repository, forks of this repository, the main EIPs site, mirrors of the main EIP site, etc.  For example, you would link to this EIP as `./eip-1.md`.
 
 ## Auxiliary Files
 
@@ -211,17 +211,19 @@ The current EIP editors are
 - Gavin John (@Pandapip1)
 - Greg Colvin (@gcolvin)
 - Matt Garnett (@lightclient)
-- Micah Zoltu (@MicahZoltu)
 - Sam Wilson (@SamWilsn)
 
 Emeritus EIP editors are 
 
 - Casey Detrio (@cdetrio)
-- Nick Johnson (@arachnid)
-- Vitalik Buterin (@vbuterin)
 - Hudson Jameson (@Souptacular)
-- Nick Savers (@nicksavers)
 - Martin Becze (@wanderer)
+- Micah Zoltu (@MicahZoltu)
+- Nick Johnson (@arachnid)
+- Nick Savers (@nicksavers)
+- Vitalik Buterin (@vbuterin)
+
+If you would like to become an EIP editor, please check [EIP-5069](./eip-5069.md).
 
 ## EIP Editor Responsibilities
 
